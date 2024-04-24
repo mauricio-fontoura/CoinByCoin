@@ -7,7 +7,7 @@ public class Exchange {
 	private Double brl;
 	private Double usd;
 	private Double ars;
-	
+	private Double ils;
 	
 
 	public Double getEur() {
@@ -26,9 +26,12 @@ public class Exchange {
 		return ars;
 	}
 	
+	public Double getIls() {
+		return ils;
+	}
 	
 	public String toString() {
-		return "REAL: " + brl + "\n" + "EURO: " + eur + "\n" + "Peso Argentino: " + ars + "\n" + "Dólar: " + usd;
+		return "Israeli New Shekel: "+ ils + "REAL: " + brl + "\n" + "EURO: " + eur + "\n" + "Peso Argentino: " + ars + "\n" + "Dólar: " + usd;
 	}
 	
 }
