@@ -16,14 +16,19 @@ public class MenuLayout {
 		6) Israeli New Shekel => Dólar
 		7) Real Brasileiro =>> Israeli New Shekel
 		8) Israeli New Shekel => Real Brasileiro
-		9) Euro => Israeli New Shekel
-		10) Israeli New Shekel => Euro
-		
+		9) Euro => Dólar
+		10) Dólar => Euro
+		11) Euro => Real Brasileiro
+		12) Real Brasileiro => Euro
 		Escolha uma opção válida:
 		*************************************
 			""";
 	
 	public String getMenu() {
 		return menu;
+	}
+	
+	public String toString() {
+		return getMenu();
 	}
 }

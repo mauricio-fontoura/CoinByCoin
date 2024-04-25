@@ -41,7 +41,7 @@ public class SearchForCurrency{
 		 return json.fromJson(objectJson, Exchange.class);
 	}
 	
-	// Pick rates exchange
+	// Pegar os valores ja convertidos
 	public Double getReaisValue () throws IOException, InterruptedException { 
 		
 		return searchCurrency().getBrl();
